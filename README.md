@@ -308,3 +308,54 @@ const SearchBox = (props) => {
 
 <hr>
 
+# Netlify로 배포하기 
+
+`리액트 배포`:npm run build 빌드
+
+```react
+npm run build
+```
+
+- dist 폴더가 생성됨
+
+![dist폴더](https://github.com/user-attachments/assets/353dc074-f28f-4cba-8b07-d6a285ef428d)
+
+
+`[serve] 간단한 웹서버 실행
+
+``` react
+npm i -g serve
+```
+[serve](https://www.npmjs.com/package/serve/)
+
+- 빌드폴더의 내용 배포
+
+```react
+$ serve -s dist/
+```
+
+![serving](https://github.com/user-attachments/assets/5c5192d8-b148-4e9c-bd9d-3d4015082c89)
+
+- git에 프로젝트를 올려야함
+
+<hr>
+
+# Netlify로 배포하기 -2
+
+[Netlify](https://www.netlify.com/)
+
+![github server](https://github.com/user-attachments/assets/9cb054c3-05bf-415a-bc34-56c562e35e75)
+
+![레포지토리 access](https://github.com/user-attachments/assets/0d95f542-96cd-4e04-b78b-0b31ae1898da)
+
+<hr>
+
+# [배포후 문제] Mixted content 문제 해결
+
+- Mixed content 문제 해결(https 사이트에서 http 사이트 요청 시 발생하는 보안 문제)
+
+​- html에 추가
+
+```
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+```

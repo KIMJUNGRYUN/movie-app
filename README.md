@@ -1,4 +1,5 @@
-## React Pratice
+## movie-app API
+`배포주소`(https://movie-app-kimjung.netlify.app/)
 
  # OMDB API 활용
  [OMDB]https://www.omdbapi.com/

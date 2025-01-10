@@ -1,7 +1,6 @@
 ## movie-app API
-[배포](https://movie-app-kimjung.netlify.app/)
+[movie-app 배포](https://movie-app-kimjung.netlify.app/)
 
-`주소`: https://movie-app-kimjung.netlify.app/
  # OMDB API 활용
  [OMDB]https://www.omdbapi.com/
  
